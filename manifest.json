@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "product": "magic_control_pro",
+  "latest_version": 21,
+  "version_text": "v2.1",
+  "firmware_url": "https://raw.githubusercontent.com/hacker-diy/mc-pro-ota/main/firmware.bin",
+  "firmware_size": 0,
+  "md5": "",
+  "message": "Magic Control Pro v2.1: fixed the hidden Notes settings gesture in Android WebView by using a reliable triple-click handler.",
+  "notes": "Notes hidden settings now open with three taps on both iPhone and Android APK/WebView. The Notes app asset URLs and service-worker cache were bumped to v21 so Android does not keep the previous JavaScript. No other Notes behavior, UI, API, beacon, AP, BOOT, OLED, OTA architecture, SSID, or core logic was changed."
+}
