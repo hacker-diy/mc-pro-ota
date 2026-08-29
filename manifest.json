@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "product": "magic_control_pro",
+  "latest_version": 25,
+  "version_text": "v2.5",
+  "firmware_url": "https://raw.githubusercontent.com/hacker-diy/mc-pro-ota/main/firmware.bin",
+  "firmware_size": 0,
+  "md5": "",
+  "message": "Magic Control Pro v2.5 corrects Calculator behavior, persistent FORCE feedback and large-iPhone viewport sizing.",
+  "notes": "Calculator now evaluates multiplication and division before addition and subtraction, preserves iPhone-style repeated operations and percentage behavior, and blocks invalid results from dispatch. FORCE reports green after the command is durably saved to NVS, reports red on a confirmed save failure, keeps the latest command while Notes is closed, and applies it when Notes returns. Peek, Calculator, Notes and Force use the live visual viewport so controls remain correctly positioned on large iPhones. Embedded web resources remain deterministic GZIP assets; the existing raw firmware.bin OTA architecture and the MC Watch integration are preserved."
+}
